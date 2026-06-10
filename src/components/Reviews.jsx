@@ -3,23 +3,24 @@ import review2 from '../assets/reviews/review2.jpg'
 import review3 from '../assets/reviews/review3.jpg'
 import './Reviews.css'
 
+// Files copied alphabetically: review1=1000646859(Mano), review2=1000648313(Yuva), review3=1000648908(Ajilinicia)
 const testimonials = [
   {
-    screenshot: review1,
+    screenshot: review3,
     name: 'Ajilinicia',
     text: '"So beautifully pleated, it was so easy to drape also. And package was clean and perfect. Thanks! ❤️✨"',
     rating: 5,
     occasion: 'Wedding Function',
   },
   {
-    screenshot: review2,
+    screenshot: review1,
     name: 'Mano',
     text: '"Really super! Very very satisfied. Will definitely come to you again for all my sarees. Highly recommend! 😊"',
     rating: 5,
     occasion: 'Family Event',
   },
   {
-    screenshot: review3,
+    screenshot: review2,
     name: 'Yuva',
     text: '"Perfect pleating done akka! Thanks a lot, the pleats were perfectly done and the fit was exactly right. Loved it!"',
     rating: 5,
