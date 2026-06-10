@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar'
+﻿import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
@@ -25,7 +25,7 @@ export default function App() {
 
       {/* Floating WhatsApp button */}
       <a
-        href="https://wa.me/919XXXXXXXXX?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20saree%20pleating%20service."
+        href="https://wa.me/919003883129?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20saree%20pleating%20service."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
@@ -54,3 +54,4 @@ export default function App() {
     </>
   )
 }
+

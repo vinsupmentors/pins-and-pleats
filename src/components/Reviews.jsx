@@ -68,7 +68,7 @@ export default function Reviews() {
             <p>Join hundreds of happy customers across Tamil Nadu who trust Pins &amp; Pleats by Prakalya.</p>
           </div>
           <a
-            href="https://wa.me/919XXXXXXXXX?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20pleating%20service."
+            href="https://wa.me/919003883129?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20pleating%20service."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

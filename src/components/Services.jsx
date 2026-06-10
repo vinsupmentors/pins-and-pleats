@@ -78,7 +78,7 @@ export default function Services() {
                 {s.priceHeavy && <span className="price-heavy">{s.priceHeavy}</span>}
               </div>
               <a
-                href="https://wa.me/919XXXXXXXXX?text=Hi%20Prakalya%2C%20I%20am%20interested%20in%20your%20pleating%20service."
+                href="https://wa.me/919003883129?text=Hi%20Prakalya%2C%20I%20am%20interested%20in%20your%20pleating%20service."
                 target="_blank"
                 rel="noopener noreferrer"
                 className={s.highlight ? 'btn-primary' : 'btn-outline'}
@@ -99,7 +99,7 @@ export default function Services() {
             </div>
           </div>
           <a
-            href="https://wa.me/919XXXXXXXXX?text=Hi%20Prakalya%2C%20I%20am%20interested%20in%20a%20bridal%20package."
+            href="https://wa.me/919003883129?text=Hi%20Prakalya%2C%20I%20am%20interested%20in%20a%20bridal%20package."
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

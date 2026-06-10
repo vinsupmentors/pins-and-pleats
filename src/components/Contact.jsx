@@ -27,8 +27,8 @@ export default function Contact() {
               <div>
                 <strong>WhatsApp Us</strong>
                 <p>
-                  <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer">
-                    +91 9X XXXX XXXX
+                  <a href="https://wa.me/919003883129" target="_blank" rel="noopener noreferrer">
+                    +91 90038 83129
                   </a>
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://wa.me/919XXXXXXXXX?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20saree%20pleating%20service."
+              href="https://wa.me/919003883129?text=Hi%20Prakalya%2C%20I%20would%20like%20to%20book%20a%20saree%20pleating%20service."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary whatsapp-btn"
@@ -78,7 +78,7 @@ export default function Contact() {
           <div className="contact-map">
             <iframe
               title="Pins & Pleats Location - Rathanapuri Coimbatore"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.549!2d76.9558!3d11.0168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f971cb5%3A0x2fc1c81e183ed282!2sRathanapuri%2C%20Coimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1"
+              src="https://maps.google.com/maps?q=Rathanapuri,Coimbatore,Tamil+Nadu&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, borderRadius: '16px' }}

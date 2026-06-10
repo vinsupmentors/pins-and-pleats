@@ -43,7 +43,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="navbar-cta">
+          <a href="https://wa.me/919003883129" target="_blank" rel="noopener noreferrer" className="navbar-cta">
             Book Now
           </a>
         </nav>
