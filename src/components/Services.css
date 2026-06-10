@@ -1,0 +1,202 @@
+.services {
+  background: var(--white);
+}
+
+.services-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 56px;
+}
+
+.services-header .section-subtitle {
+  max-width: 100%;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.service-card {
+  position: relative;
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--orange-light);
+}
+
+.service-card.highlighted {
+  border-color: var(--orange);
+  background: linear-gradient(160deg, #fff9f5 0%, var(--white) 100%);
+  box-shadow: 0 4px 24px rgba(232,101,10,0.15);
+}
+
+.service-ribbon {
+  position: absolute;
+  top: -1px;
+  right: 24px;
+  background: var(--orange);
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 0 0 10px 10px;
+}
+
+.service-emoji {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+.service-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--orange);
+  background: var(--orange-pale);
+  padding: 3px 10px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.service-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 0;
+}
+
+.service-desc {
+  font-size: 14px;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+.service-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.service-features li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--gray-700);
+}
+
+.check {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.service-price {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 8px;
+  border-top: 1px solid var(--gray-200);
+  margin-top: auto;
+}
+
+.price-amount {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.price-heavy {
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+/* Bridal banner */
+.bridal-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: linear-gradient(135deg, var(--orange) 0%, var(--orange-light) 100%);
+  padding: 32px 40px;
+  border-radius: var(--radius-lg);
+  color: var(--white);
+  flex-wrap: wrap;
+}
+
+.bridal-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bridal-emoji {
+  font-size: 40px;
+  flex-shrink: 0;
+}
+
+.bridal-banner h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--white);
+}
+
+.bridal-banner p {
+  font-size: 15px;
+  opacity: 0.9;
+  max-width: 480px;
+}
+
+.bridal-banner .btn-primary {
+  background: var(--white);
+  color: var(--orange);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+
+.bridal-banner .btn-primary:hover {
+  background: var(--gray-100);
+  color: var(--orange-dark);
+}
+
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bridal-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 28px 24px;
+  }
+
+  .bridal-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
